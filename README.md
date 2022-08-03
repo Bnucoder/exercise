@@ -10,8 +10,12 @@ algorithm note
   for(i = 0; i < 9 ; i++ )
     {
         i = (i % 3)* 3;      //列的计算 取余数
+        
         j = (i / 3)*3;}      //行计算  取整数
+        
 2、memset函数（c/C++）
   memset是计算机中C/C++语言初始化函数。作用是将某一块内存中的内容全部设置为指定的值， 这个函数通常为新申请的内存做初始化工作。
+  
   void *memset(void *s, int ch, size_t n);
-函数解释：将s中当前位置后面的n个字节 （typedef unsigned int size_t ）用 ch 替换并返回 s 。
+  
+  函数解释：将s中当前位置后面的n个字节 （typedef unsigned int size_t ）用 ch 替换并返回 s 。
